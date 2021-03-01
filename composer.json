@@ -1,0 +1,35 @@
+{
+    "name": "arcowebsites/via_cep-sdk",
+    "type": "library",
+    "description": "SDK API ViaCep.",
+    "authors": [
+        {
+            "name": "Fernando Garioli",
+            "email": "desenvolvimento5@arcoinformatica.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "~6.0",
+        "psr/log": "^1.1",
+        "symfony/serializer": "^5.2",
+        "symfony/property-access": "^5.2",
+        "symfony/property-info": "^5.2",
+        "phpdocumentor/reflection-docblock": "^5.2",
+        "doctrine/annotations": "^1.11"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "symfony/var-dumper": "v5.1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sdk\\ViaCep\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sdk\\ViaCep\\Tests\\": "tests/"
+        }
+    }
+}
